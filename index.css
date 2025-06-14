@@ -405,7 +405,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+        url('./images/flower_2.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -415,7 +415,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header__text {
     position: absolute;
-    top: 50%;
+    top: 30%;
     transform: translateY(-50%);
 }
 
@@ -552,7 +552,7 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: var(--gutter-normal);
 }
 
-@media(min-width: 901px) {
+@media(min-width: 600px) {
     .about__text {
         flex: 0 0 35%;
     }
